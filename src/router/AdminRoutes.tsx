@@ -5,7 +5,7 @@ import { Page404 } from "../components/top/pages/Page404";
 
 export const AdminRoutes = [
     {
-        path: "",
+        path: "home",
         children: <Home />
     },
     {

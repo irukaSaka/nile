@@ -67,7 +67,7 @@ module.exports = {
       {
         allowAsStatement: true,
       },
-    ],
+    ]
   },
   settings: {
     'import/resolver': { //importするファイルをjsだけではなく、tsを含むファイルを許可する
