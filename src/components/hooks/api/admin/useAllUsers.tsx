@@ -3,7 +3,7 @@ import { useCallback, useState } from "react";
 import { User } from "../../../types/api/user";
 import { useMessage } from "../../useMessage";
 
-export const UseAllUsers = () => {
+export const useAllUsers = () => {
   const { showMessage } = useMessage();
 
   const [loading, setLoading] = useState(false);
