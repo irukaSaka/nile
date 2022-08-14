@@ -1,6 +1,7 @@
 {
   "name": "nile",
   "version": "0.1.0",
+  "homepage": "https://irukaSaka.github.io/react-app",
   "private": true,
   "dependencies": {
     "@chakra-ui/icons": "^2.0.6",
@@ -24,6 +25,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "deploy": "npm run build && main -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
